@@ -1,0 +1,53 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Log files
+*.log
+
+# Testing
+htmlcov/
+.coverage
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# MyPy
+.mypy_cache/
+
+# PyInstaller
+*.spec
+
+# Docker-related
+**/.dockerignore
+docker-compose.override.yml
+docker-compose*.log
+.docker/
+
+# Docker volumes or bind mounts (if stored locally)
+data/
+logs/

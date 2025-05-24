@@ -2,7 +2,7 @@ from contextlib import asynccontextmanager
 from typing import Union
 
 from fastapi import FastAPI
-from fastapi.midddleware.cors import CORSMiddleware
+from fastapi.middleware.cors import CORSMiddleware
 from api.db.session import init_db
 from api.events import router as event_router
 
